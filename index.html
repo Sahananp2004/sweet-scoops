@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sweet Scoops Ice Cream</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fff1f5, #fef6e4);
+      color: #333;
+    }
+
+    header {
+      background: #ff8fab;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #fff0f3;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .hero button {
+      background: #ff477e;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      padding: 15px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h4 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer {
+      background: #ff8fab;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sweet Scoops</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Welcome to Sweet Scoops 🍦</h2>
+  <p>Delicious handmade ice creams just for you</p>
+  <button>Explore Flavours</button>
+</section>
+
+<section class="section">
+  <h3>Our Popular Flavours</h3>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg" alt="Vanilla" />
+      <h4>Vanilla Delight</h4>
+      <p>Classic creamy vanilla</p>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg" alt="Chocolate" />
+      <h4>Chocolate Bliss</h4>
+      <p>Rich and chocolaty</p>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg" alt="Strawberry" />
+      <h4>Strawberry Swirl</h4>
+      <p>Fresh fruity flavour</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Sweet Scoops Ice Cream Parlour</p>
+</footer>
+
+</body>
+</html>
